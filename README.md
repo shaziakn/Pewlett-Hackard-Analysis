@@ -24,4 +24,4 @@ ORDER BY emp_no;
 However, for some reason this did not work, so I moved onto table2. To make table2 I did an inner join between retirement_info and titles tables, this time including the from_date. Then I did a second inner join with this table and the employees table so that I could filter employees with birthdays in 1965. Unfortunately, I ran into a problem of a blank table2 because the inner join could not match duplicating employee numbers.
 
 Consequently, I cannot conclude how many retirees or mentors for Bobby's manager to expect. Below is my ERD:
-![EmployeeRD](EmployeeRD.png)
+![EmployeeDB](EmployeeDB.png)
